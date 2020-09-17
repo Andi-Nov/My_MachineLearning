@@ -53,7 +53,7 @@ int main() {
   p = (double *)malloc(M*sizeof(double));
   v = (double *)malloc(N*sizeof(double));
   
-  // GET ALL OF THE TRAINING DATA
+  // GET ALL OF THE TRAINING DAT
   for (train=0;train<N;train++) {
     tp[train] = (double *)malloc(M*sizeof(double));
     
